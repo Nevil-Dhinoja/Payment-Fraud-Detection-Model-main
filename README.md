@@ -1306,7 +1306,7 @@ This project was developed and presented at **Indus University** by Team Defraud
     <td align="center">
       <img src="https://img.icons8.com/fluency/96/user-female-circle.png" width="80"/><br/>
       <strong>Yashvi Bhadani</strong><br/>
-      <sub>Testing</sub>
+      <sub>Tester</sub>
     </td>
   </tr>
 </table>

@@ -2,7 +2,7 @@
 
 # 🛡️ Defraudo - AI-Powered Payment Fraud Detection System
 
-[![Made by Nevil Dhinoja](https://img.shields.io/badge/Made%20by-Manan%20Monani-blueviolet?style=for-the-badge)](https://github.com/manan-monani)
+[![Made by Nevil Dhinoja](https://img.shields.io/badge/Made%20by-Nevil%20Dhinoja-blueviolet?style=for-the-badge)](https://github.com/Nevil-Dhinoja)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-7.0-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
@@ -17,7 +17,7 @@
 
 **An enterprise-grade fraud detection system leveraging advanced machine learning algorithms, ensemble methods, and real-time transaction analysis to detect and prevent fraudulent activities with 99.92% accuracy.**
 
-[🚀 Demo](#demo) • [📊 Mathematical Approach](#-mathematical-approach--algorithms) • [✨ Features](#-features) • [🛠️ Tech Stack](#%EF%B8%8F-technology-stack) • [📦 Installation](#-installation--setup) • [📫 Contact](#-contact)
+ [📊 Mathematical Approach](#-mathematical-approach--algorithms) • [✨ Features](#-features) • [🛠️ Tech Stack](#%EF%B8%8F-technology-stack) • [📦 Installation](#-installation--setup)
 
 </div>
 
@@ -433,26 +433,26 @@ Default: $\tau^* = 0.5$, but adjustable based on business requirements (precisio
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     PRESENTATION LAYER                       │
+│                     PRESENTATION LAYER                      │
 │  React Frontend (client_new/) + TailwindCSS + Vite          │
-│  • User authentication UI                                    │
-│  • Transaction submission forms                              │
-│  • Real-time fraud detection dashboard                       │
-│  • Analytics & visualization                                 │
+│  • User authentication UI                                   │
+│  • Transaction submission forms                             │
+│  • Real-time fraud detection dashboard                      │
+│  • Analytics & visualization                                │
 └────────────────────────┬────────────────────────────────────┘
                          │ HTTP/REST API
                          │
 ┌────────────────────────▼────────────────────────────────────┐
-│                    APPLICATION LAYER                         │
+│                    APPLICATION LAYER                        │
 │  Node.js + Express.js Backend (server/)                     │
-│  • JWT authentication middleware                             │
-│  • Transaction API endpoints                                 │
-│  • Request validation & error handling                       │
-│  • Communication with ML service                             │
+│  • JWT authentication middleware                            │
+│  • Transaction API endpoints                                │
+│  • Request validation & error handling                      │
+│  • Communication with ML service                            │
 └────────────────────────┬────────────────────────────────────┘
                          │
         ┌────────────────┴────────────────┐
-        │                                  │
+        │                                 │
 ┌───────▼──────────┐            ┌─────────▼─────────┐
 │  DATA LAYER      │            │   ML SERVICE      │
 │  MongoDB         │            │   Python Flask    │
@@ -857,15 +857,6 @@ db.users.find()
 
 ---
 
-## 🖥️ Screenshots
-
-<div align="center">
-  <p><strong>🌙 Dark Mode | ☀️ Light Mode</strong></p>
-  <p>Beautiful, responsive UI with seamless theme switching</p>
-</div>
-
----
-
 ## 📊 API Endpoints
 
 ### 🔐 Authentication API (Node.js Backend)
@@ -1233,131 +1224,48 @@ $$
 - Typical merchant categories
 
 ---
-
-## 📫 Contact
-
 <div align="center">
 
-### **Nevil Dhinoja**
 
-<img src="https://img.icons8.com/fluency/96/user-male-circle.png" alt="Profile" width="100"/>
+<br/>
 
-*Full-Stack Developer | ML Engineer | Payment Systems Specialist*
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="180" align="center" valign="top">
 
----
+<img src="https://github.com/Nevil-Dhinoja.png" width="120" style="border-radius:50%"/>
 
-### 🌐 Connect With Me
+</td>
+<td width="30"></td>
+<td valign="middle">
 
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <a href="https://www.linkedin.com/in/mananmonani" target="_blank">
-        <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" width="40" height="40"/><br/>
-        <strong>LinkedIn</strong>
-      </a>
-    </td>
-    <td align="center" width="25%">
-      <a href="https://github.com/manan-monani" target="_blank">
-        <img src="https://img.icons8.com/fluency/48/github.png" alt="GitHub" width="40" height="40"/><br/>
-        <strong>GitHub</strong>
-      </a>
-    </td>
-    <td align="center" width="25%">
-      <a href="https://youtube.com/@mananmonani?si=Ox8sAcMclkKlKTix" target="_blank">
-        <img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube" width="40" height="40"/><br/>
-        <strong>YouTube</strong>
-      </a>
-    </td>
-    <td align="center" width="25%">
-      <a href="https://www.kaggle.com/mananmonani" target="_blank">
-        <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-kaggle-an-online-community-of-data-scientists-and-machine-learners-owned-by-google-logo-color-tal-revivo.png" alt="Kaggle" width="40" height="40"/><br/>
-        <strong>Kaggle</strong>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="4">
-      <a href="https://leetcode.com/u/mmmonani747" target="_blank">
-        <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png" alt="LeetCode" width="40" height="40"/><br/>
-        <strong>LeetCode</strong>
-      </a>
-    </td>
-  </tr>
+<h2 align="left">Nevil Dhinoja</h2>
+<p align="left"><i>AI / ML Engineer &nbsp;·&nbsp; Full-Stack Developer &nbsp;·&nbsp; Gujarat, India</i></p>
+<p align="left">
+I build AI systems that are practical, deployable, and free to run.<br/>
+This project is part of a larger series of open-source AI tools — each one<br/>
+designed to teach a real concept through a working, shippable product.
+</p>
+
+</td>
+</tr>
 </table>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mananmonani)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/manan-monani)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@mananmonani?si=Ox8sAcMclkKlKTix)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/mmmonani747)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/mananmonani)
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nevil%20Dhinoja-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nevil-dhinoja)
+[![GitHub](https://img.shields.io/badge/GitHub-Nevil--Dhinoja-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nevil-Dhinoja)
+[![Gmail](https://img.shields.io/badge/Email-nevil%40email.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhinoja.nevil@email.com)
+
+<br/>
+
+If this project helped you or saved you time, a star on the repo goes a long way.
+
+<br/>
 
 ---
 
-### 📞 Contact Information
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://img.icons8.com/fluency/48/mail.png" alt="Email" width="30"/><br/>
-      <strong>Email</strong><br/>
-      <a href="mailto:mmmonani747@gmail.com">mmmonani747@gmail.com</a>
-    </td>
-    <td align="center">
-      <img src="https://img.icons8.com/color/48/india.png" alt="Phone" width="30"/><br/>
-      <strong>Phone</strong><br/>
-      🇮🇳 +91 70168 53244
-    </td>
-    <td align="center">
-      <img src="https://img.icons8.com/fluency/48/marker.png" alt="Location" width="30"/><br/>
-      <strong>Location</strong><br/>
-      📍 Jamnagar, Gujarat, India
-    </td>
-  </tr>
-</table>
-
----
-
-### 💼 Portfolio
-
-<img src="https://img.icons8.com/fluency/48/domain.png" alt="Portfolio" width="30"/>
-
-**Portfolio Website**: 🚧 Coming Soon (Deployment in progress)
-
----
-
-### 📊 GitHub Statistics
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=manan-monani&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=manan-monani&layout=compact&theme=radical&hide_border=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=manan-monani&theme=radical&hide_border=true)
-
----
-
-### 📬 Let's Collaborate!
-
-I'm open to:
-- 💼 Full-time opportunities in ML/AI & Full-Stack Development
-- 🤝 Collaboration on open-source projects
-- 📚 Knowledge sharing & technical discussions
-- 🎓 Mentorship in ML, Python, and MERN stack
-
-**Response Time**: Usually within 24 hours
-
-</div>
-
----
-
-<div align="center">
-
-### 💡 If you found this project helpful, please give it a ⭐!
-
-[![Star this repo](https://img.shields.io/github/stars/manan-monani/Payment-Fraud-Detection-Model?style=social)](https://github.com/Nevil-Dhinoja/)
-
----
-
-Made with ❤️ by [Nevil Dhinoja](https://github.com/manan-monani) and the **Defraudo Team**
+Made with ❤️ by [Nevil Dhinoja](https://github.com/Nevil-Dhinoja) and the **Defraudo Team**
 
 </div>
 
@@ -1371,17 +1279,17 @@ This project was developed and presented at **Indus University** by Team Defraud
       <img src="https://img.icons8.com/fluency/96/user-male-circle.png" width="80"/><br/>
       <strong>Nevil Dhinoja</strong><br/>
       <sub>Team Lead & ML Engineer</sub><br/>
-      <a href="https://github.com/manan-monani">GitHub</a>
+      <a href="https://github.com/Nevil-Dhinoja">GitHub</a>
     </td>
     <td align="center">
       <img src="https://img.icons8.com/fluency/96/user-male-circle.png" width="80"/><br/>
       <strong>Manan Monani</strong><br/>
-      <sub>Backend Developer</sub>
+      <sub>Backend Developer & Linker</sub>
     </td>
     <td align="center">
       <img src="https://img.icons8.com/fluency/96/user-male-circle.png" width="80"/><br/>
       <strong>Krishil Agrawal</strong><br/>
-      <sub>Frontend Developer</sub>
+      <sub>Application Developer</sub>
     </td>
   </tr>
   <tr>
@@ -1398,7 +1306,7 @@ This project was developed and presented at **Indus University** by Team Defraud
     <td align="center">
       <img src="https://img.icons8.com/fluency/96/user-female-circle.png" width="80"/><br/>
       <strong>Yashvi Bhadani</strong><br/>
-      <sub>Data Analyst</sub>
+      <sub>Testing</sub>
     </td>
   </tr>
 </table>
@@ -1430,47 +1338,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 ```
-
----
-
-## 🙏 Acknowledgments
-
-- **Kaggle** for providing the [Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-- **Indus University** for academic support and resources
-- **Open Source Community** for the amazing libraries and tools
-- **XGBoost, LightGBM & Scikit-learn** teams for exceptional ML frameworks
-
----
-
-## 📚 References & Citations
-
-1. **Dataset**: Machine Learning Group - ULB. (2018). *Credit Card Fraud Detection*. Kaggle. https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
-
-2. **XGBoost**: Chen, T., & Guestrin, C. (2016). *XGBoost: A Scalable Tree Boosting System*. KDD '16.
-
-3. **SMOTE**: Chawla, N. V., et al. (2002). *SMOTE: Synthetic Minority Over-sampling Technique*. JAIR, 16, 321-357.
-
-4. **Imbalanced Learning**: Lemaitre, G., et al. (2017). *Imbalanced-learn: A Python Toolbox to Tackle the Curse of Imbalanced Datasets in Machine Learning*. JMLR, 18(17), 1-5.
-
-5. **LightGBM**: Ke, G., et al. (2017). *LightGBM: A Highly Efficient Gradient Boosting Decision Tree*. NIPS 2017.
-
-6. **Hyperparameter Optimization**: Akiba, T., et al. (2019). *Optuna: A Next-generation Hyperparameter Optimization Framework*. KDD 2019.
-
----
-
-<div align="center">
-
-### 📈 Project Statistics
-
-![GitHub repo size](https://img.shields.io/github/repo-size/manan-monani/Payment-Fraud-Detection-Model?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/manan-monani/Payment-Fraud-Detection-Model?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/manan-monani/Payment-Fraud-Detection-Model?style=for-the-badge)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/manan-monani/Payment-Fraud-Detection-Model?style=for-the-badge)
-
----
-
-**⚡ Built with cutting-edge technology | 🛡️ Production-ready architecture | 📊 Industry-grade ML pipeline**
-
-**Thank you for visiting! Don't forget to star ⭐ this repository!**
-
 </div>

@@ -1,0 +1,56 @@
+/* .transaction-form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.transaction-form h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.transaction-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.transaction-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.transaction-form input[readonly] {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+}
+
+.transaction-form button {
+    padding: 12px;
+    font-size: 18px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.transaction-form button:hover {
+    background: #0056b3;
+}
+
+.transaction-form p {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+} */

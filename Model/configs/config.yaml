@@ -1,0 +1,122 @@
+# Fraud Detection ML Pipeline Configuration
+# Author: Manan Monani
+# ============================================
+
+# Data Configuration
+data:
+  raw_data_path: "data/raw/creditcard.csv"
+  processed_data_path: "data/processed/"
+  test_size: 0.2
+  validation_size: 0.1
+  random_state: 42
+  
+# Feature Engineering
+features:
+  # Columns to drop (if any)
+  drop_columns: []
+  
+  # Target column
+  target_column: "Class"
+  
+  # Scaling method: "standard", "minmax", "robust"
+  scaling_method: "robust"
+  
+  # Feature selection
+  feature_selection:
+    enabled: true
+    method: "importance"  # importance, correlation, rfe
+    n_features: 20
+
+# Model Configuration
+model:
+  # Available models: random_forest, xgboost, lightgbm, logistic_regression, neural_network
+  primary_model: "xgboost"
+  
+  # Whether to use ensemble
+  use_ensemble: true
+  ensemble_models:
+    - "random_forest"
+    - "xgboost"
+    - "lightgbm"
+  
+  # Hyperparameter tuning
+  hyperparameter_tuning:
+    enabled: true
+    method: "optuna"  # grid, random, optuna
+    n_trials: 50
+    cv_folds: 5
+
+# Class Imbalance Handling
+imbalance:
+  # Method: "smote", "adasyn", "random_oversample", "random_undersample", "smoteenn", "none"
+  method: "smote"
+  sampling_strategy: 0.5  # Ratio of minority to majority class
+
+# Training Configuration
+training:
+  epochs: 100
+  batch_size: 256
+  early_stopping:
+    enabled: true
+    patience: 10
+    min_delta: 0.001
+  
+  # Cross-validation
+  cross_validation:
+    enabled: true
+    n_folds: 5
+    stratified: true
+
+# Evaluation Configuration
+evaluation:
+  metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1"
+    - "roc_auc"
+    - "pr_auc"
+  
+  # Threshold optimization
+  threshold_optimization:
+    enabled: true
+    method: "f1"  # f1, precision_recall, cost_based
+  
+  # Save evaluation plots
+  save_plots: true
+  plots_path: "logs/plots/"
+
+# Model Saving
+saving:
+  model_path: "models/"
+  save_format: "joblib"  # joblib, pickle, onnx
+  save_preprocessing: true
+  version_models: true
+
+# API Configuration
+api:
+  host: "0.0.0.0"
+  port: 5000
+  debug: false
+  
+  # Rate limiting
+  rate_limit:
+    enabled: true
+    requests_per_minute: 100
+  
+  # Response configuration
+  response:
+    include_probability: true
+    include_feature_importance: false
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  log_file: "logs/training.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# MLflow Configuration (for experiment tracking)
+mlflow:
+  enabled: false
+  tracking_uri: "mlruns/"
+  experiment_name: "fraud_detection"

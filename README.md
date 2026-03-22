@@ -624,8 +624,6 @@ NODE_ENV=production
 
 # MongoDB Configuration
 MONGO_URI=mongodb://localhost:27017/fraud_detection
-# Or use MongoDB Atlas:
-# MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/fraud_detection?retryWrites=true&w=majority
 
 # JWT Configuration
 JWT_SECRET=your_super_secure_jwt_secret_key_here_min_32_chars

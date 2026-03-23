@@ -17,8 +17,6 @@
 
 **An enterprise-grade fraud detection system leveraging advanced machine learning algorithms, ensemble methods, and real-time transaction analysis to detect and prevent fraudulent activities with 99.92% accuracy.**
 
- [📊 Mathematical Approach](#-mathematical-approach--algorithms) • [✨ Features](#-features) • [🛠️ Tech Stack](#%EF%B8%8F-technology-stack) • [📦 Installation](#-installation--setup)
-
 </div>
 
 ---
@@ -996,50 +994,6 @@ $$
 - Typical merchant categories
 
 ---
-<div align="center">
-
-
-<br/>
-
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td width="180" align="center" valign="top">
-
-<img src="https://github.com/Nevil-Dhinoja.png" width="120" style="border-radius:50%"/>
-
-</td>
-<td width="30"></td>
-<td valign="middle">
-
-<h2 align="left">Nevil Dhinoja</h2>
-<p align="left"><i>AI / ML Engineer &nbsp;·&nbsp; Full-Stack Developer &nbsp;·&nbsp; Gujarat, India</i></p>
-<p align="left">
-I build AI systems that are practical, deployable, and free to run.<br/>
-This project is part of a larger series of open-source AI tools — each one<br/>
-designed to teach a real concept through a working, shippable product.
-</p>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nevil%20Dhinoja-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nevil-dhinoja)
-[![GitHub](https://img.shields.io/badge/GitHub-Nevil--Dhinoja-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nevil-Dhinoja)
-[![Gmail](https://img.shields.io/badge/Email-nevil%40email.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhinoja.nevil@email.com)
-
-<br/>
-
-If this project helped you or saved you time, a star on the repo goes a long way.
-
-<br/>
-
----
-
-Made with ❤️ by [Nevil Dhinoja](https://github.com/Nevil-Dhinoja) and the **Defraudo Team**
-
-</div>
 
 ## 👥 Team Members
 
@@ -1112,4 +1066,51 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 ```
 &nbsp;
 ![Views](https://komarev.com/ghpvc/?username=Nevil-Dhinoja&repo=data-analyst-agent&color=blue)
+</div>
+
+---
+
+<div align="center">
+
+
+<br/>
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="180" align="center" valign="top">
+
+<img src="https://github.com/Nevil-Dhinoja.png" width="120" style="border-radius:50%"/>
+
+</td>
+<td width="30"></td>
+<td valign="middle">
+
+<h2 align="left">Nevil Dhinoja</h2>
+<p align="left"><i>AI / ML Engineer &nbsp;·&nbsp; Full-Stack Developer &nbsp;·&nbsp; Gujarat, India</i></p>
+<p align="left">
+I build AI systems that are practical, deployable, and free to run.<br/>
+This project is part of a larger series of open-source AI tools — each one<br/>
+designed to teach a real concept through a working, shippable product.
+</p>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nevil%20Dhinoja-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nevil-dhinoja)
+[![GitHub](https://img.shields.io/badge/GitHub-Nevil--Dhinoja-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nevil-Dhinoja)
+[![Gmail](https://img.shields.io/badge/Email-nevil%40email.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhinoja.nevil@email.com)
+
+<br/>
+
+If this project helped you or saved you time, a star on the repo goes a long way.
+
+<br/>
+
+---
+
+Made with ❤️ by [Nevil Dhinoja](https://github.com/Nevil-Dhinoja) and the **Defraudo Team**
+
 </div>
